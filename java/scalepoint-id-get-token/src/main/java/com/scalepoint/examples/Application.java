@@ -29,7 +29,7 @@ public class Application {
         // Your client identifier provided by Scalepoint
         String clientId = args[0];
 
-        // Self-signed X.509 certificate (2048 bit RSA) with private key. Used to sign the assertion
+        // Java Key Store (JKS) with imported Self-signed X.509 certificate (2048 bit RSA) with private key. Used to sign the assertion
         // Procedure of generating self-signed keys is described in the documentation: https://dev.scalepoint.com/authentication#self-signed-certificate-generation
         // Please send us the certificate (but not the private key)
         String certificateFile = args[1];
